@@ -188,3 +188,31 @@ a.custom-card:hover {
 .checked {
   color: orange;
 }
+.logo{
+  width: 450px;
+  height: 200px;
+ }
+ 
+ #btn2{
+   background-color: red;
+   color:white;
+   margin-left: 20px;;
+   border-color: darkred;
+   box-shadow: darkred;
+ }
+ #btn2:hover{
+   background-color: rgb(202, 42, 42);
+ }
+ .form{
+ border-radius: 12px;
+ text-align: center;
+ }
+ .formulario{
+   background-color:azure;
+   width: 500px;
+   height: 420px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 15%;
+  }
+ 
