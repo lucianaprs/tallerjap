@@ -21,3 +21,5 @@ document.addEventListener("DOMContentLoaded"),() =>{
         document.getElementById("email").innerHTML = correo;
     }
 }
+
+

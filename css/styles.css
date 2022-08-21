@@ -215,4 +215,22 @@ a.custom-card:hover {
   margin-left: 30%;
   margin-top: 15%;
   }
- 
+.cars{
+  text-align: center;
+}
+.container{
+  display: inline;
+}
+  .imagen-producto{
+    display:inline-flex;
+    float: left;
+    border:  white;
+    padding: 2px;
+    margin-left: 15px;
+    width: 200px;
+  }
+
+  .imagen-producto:hover{
+    opacity: 85%;
+  }
+
