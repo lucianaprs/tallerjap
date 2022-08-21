@@ -9,6 +9,6 @@ function login(){
     }
 }
 let boton = document.getElementById("btn");
-boton.addEventListener("click", function (){
+boton.addEventListener("click", ()=>{
     login();
 })

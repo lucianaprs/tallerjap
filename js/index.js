@@ -12,14 +12,14 @@ document.addEventListener("DOMContentLoaded", function(){
         window.location = "products.html"
     });
 });
-document.addEventListener("DOMContentLoaded"),() =>{
-    if (correo == 'null'){
+document.addEventListener("DOMContentLoaded",() =>{
+    if (correo == null){
         alert('debe iniciar sesión');
         location.href='login.html';
     }
     else{
         document.getElementById("email").innerHTML = correo;
     }
-}
+})
 
 
