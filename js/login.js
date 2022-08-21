@@ -5,6 +5,7 @@ function login(){
     if(correo == "" || contraseña == ""){
         alert('complete los datos para iniciar sesión');}
     else{
+        sessionStorage.setItem('email', 'correo');
         location.href = 'index.html';
     }
 }

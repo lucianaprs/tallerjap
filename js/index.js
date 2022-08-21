@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 });
 document.addEventListener("DOMContentLoaded",() =>{
+    let correo = sessionStorage.getItem('email');
     if (correo == null){
         alert('debe iniciar sesión');
         location.href='login.html';
