@@ -1,17 +1,15 @@
-fetch("https://japceibal.github.io/emercado-api/cats_products/101.json")
-.then(response=>response.json())
-.then(datos=>{
-    let cars = document.getElementById('cat-list-container');
-    for (let dato of datos.products){
-        console.log(datos);
-        cars.innerHTML += `
-        <img src=${dato.image} class="imagen-producto"> 
-        <h4 class="titulo">${dato.name}</h4>
-        <span class="precio">${dato.cost} ${dato.currency}</span>
-        <p class="descripcion">${dato.description}</p>
-        <small class="text-muted">${dato.soldCount} artículos </small>
-        <hr>
-        `
-    }
 
-})
+document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("autos").addEventListener("click", function() {
+        localStorage.setItem("catID", 101);
+        location.href = "products.html"
+    });
+    document.getElementById("juguetes").addEventListener("click", function() {
+        localStorage.setItem("catID", 102);
+        location.href = "products.html"
+    });
+    document.getElementById("muebles").addEventListener("click", function() {
+        localStorage.setItem("catID", 103);
+        location.href = "products.html"
+    });
+});
